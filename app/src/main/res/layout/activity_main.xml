@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:background="@color/background"
+    android:gravity="bottom|end">
+
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/rubik_semibolditalic"
+        android:hint="Yaş"
+        android:inputType="number"
+        android:rotation="0"
+        android:rotationY="0" />
+
+    <EditText
+        android:id="@+id/etHeight"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Boy (cm)"
+        android:inputType="number"
+        android:fontFamily="@font/rubik_semibolditalic"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Kilogram (kg)"
+        android:inputType="number"
+        android:fontFamily="@font/rubik_semibolditalic"/>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+        android:fontFamily="@font/rubik_semibolditalic"
+        android:text="Hesapla"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="374dp"
+        android:fontFamily="@font/rubik_semibolditalic"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:paddingTop="0dp"
+        android:text=""
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView_credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by Kara Mobile"
+        android:textColor="#000000"
+        android:textSize="9sp" />
+
+
+
+</LinearLayout>
+
