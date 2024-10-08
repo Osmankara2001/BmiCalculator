@@ -8,7 +8,7 @@ Kullanıcı Girişi: Yaş, boy ve kilo bilgilerinizi girin.
 
 BMI Hesaplama: BMI değerinizi hesaplayın ve sonucu görün.
 
-Kategorize Edilmiş Sonuçlar: BMI kategorinize göre tavsiyeler alın (Zayıf, Normal Kilolu, Fazla Kilolu, Obez)...
+Kategorize Edilmiş Sonuçlar: BMI kategorinize göre tavsiyeler alın (Zayıf, Normal Kilolu, Fazla Kilolu, Obez)..
 
 
 
